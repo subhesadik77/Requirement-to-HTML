@@ -15,6 +15,14 @@
     }
 }
 /* navigation part end */
+
+/* header part start */
+#header {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 700px;
+}
+/* header part end */
 /* popular part start */
 .popular-item {
     border: 1px solid hsla(0, 0%, 50%, 0.658);
