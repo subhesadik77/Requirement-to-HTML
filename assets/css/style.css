@@ -1,54 +1,50 @@
 .title-color {
-    color: #16325B;
-    font-weight: bold;
-} 
+  color: #16325b;
+  font-weight: bold;
+}
 :root {
-    --main-color: #fff;
-    --cross-color: #6266665d;
+  --main-color: #fff;
+  --cross-color: #6266665d;
 }
 /* navigation part start */
 .nav-item {
-    padding: 10px;
-    & a {
-        font-size: 18px;
-        font-weight: 500;
-    }
+  padding: 10px;
+  & a {
+    font-size: 18px;
+    font-weight: 500;
+  }
 }
 /* navigation part end */
 
 /* header part start */
 #header {
-    background: url(../images/banner.jpg) no-repeat center;
-    background-size: cover;
-    height: 700px;
+  background: url(../images/banner.jpg) no-repeat center;
+  background-size: cover;
+  height: 700px;
 }
 /* header part end */
 /* popular part start */
 .popular-item {
-    border: 1px solid hsla(0, 0%, 50%, 0.658);
-    &:hover {
-        border-color: rgb(14, 13, 13);
-        cursor: pointer;
-    }
+  border: 1px solid hsla(0, 0%, 50%, 0.658);
+  &:hover {
+    border-color: rgb(14, 13, 13);
+    cursor: pointer;
+  }
 }
-    
+
 /* popular part end */
 
 /* Testimonial part start */
 .card {
-    border: none;
+  border: none;
 }
 /* Testimonial part end */
 
 /* Footer part start */
 #footer {
-    & a {
-        text-decoration: none;
-        font-size: 22px;
-    }
+  & a {
+    text-decoration: none;
+    font-size: 22px;
+  }
 }
 /* Footer part end */
-
-
-
-
